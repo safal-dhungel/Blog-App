@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+p {
+  white-space: pre-line;
+  text-wrap: wrap;
+}
+*::-webkit-scrollbar {
+  background: black;
+  width: 4px;
+  height:4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+}
+
+@layer {
+  .bg-primary {
+    @apply bg-gradient-to-r from-gray-950 to-red-900 via-blue-900;
+  }
+}
