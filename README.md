@@ -7,7 +7,7 @@ This blog application allows you to upload blog posts with a cover image. You ca
 ## How to Get Started:
 
 1. **Visit the Website**:  
-   Go to [Blog Appwrite]()
+   Go to [Blog Appwrite](https://blog-app-red-pi.vercel.app/)
 
 2. **Sign Up**:  
    Create a new account using your email and credentials.
