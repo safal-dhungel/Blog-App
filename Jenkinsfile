@@ -8,15 +8,21 @@ pipeline {
             }
         }
 
+        stage('Install') {
+            steps {
+                sh 'npm install'
+            }
+        }
+
         stage('Build') {
             steps {
-                echo 'Building project...'
+                sh 'npm run build'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Running tests...'
+                sh 'npm test'
             }
         }
     }
